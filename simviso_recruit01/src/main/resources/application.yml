@@ -1,0 +1,13 @@
+server: 
+  port: 9003
+spring: 
+  application:  
+    name: simviso-recruit
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://myhome.tmdaq.com:3306/tensquare_recruit?characterEncoding=utf-8
+    username: root
+    password: youxiangxin
+  jpa: 
+    database: MySQL
+    show-sql: true

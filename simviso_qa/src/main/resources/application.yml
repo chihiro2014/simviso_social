@@ -5,9 +5,9 @@ spring:
     name: simviso-recruit
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://myhome.tmdaq.com:3306/tensquare_qa?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306
     username: root
-    password: youxiangxin
+    password: root
   jpa: 
     database: MySQL
     show-sql: true

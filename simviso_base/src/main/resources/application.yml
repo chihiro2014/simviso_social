@@ -7,9 +7,9 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://myhome.tmdaq.com:3306/tensquare_base?characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306
     username: root
-    password: youxiangxin
+    password: root
   jpa:
     database: mysql
     show-sql: true

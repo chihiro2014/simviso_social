@@ -16,8 +16,6 @@ import java.io.Serializable;
  */
 @Entity
 @Table(name = "tb_pl")
-@Data
-@Accessors(chain = true)
 public class Pl implements Serializable {
 
     @Id
@@ -25,4 +23,20 @@ public class Pl implements Serializable {
 
     @Id
     private String labelid;
+
+    public String getProblemid() {
+        return problemid;
+    }
+
+    public void setProblemid(String problemid) {
+        this.problemid = problemid;
+    }
+
+    public String getLabelid() {
+        return labelid;
+    }
+
+    public void setLabelid(String labelid) {
+        this.labelid = labelid;
+    }
 }

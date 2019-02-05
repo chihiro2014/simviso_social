@@ -12,9 +12,12 @@
         <module>simviso_common</module>
         <module>simviso_base</module>
         <module>simviso_common</module>
-        <module>simviso_recruit</module>
         <module>simviso_recruit01</module>
         <module>simviso_qa</module>
+        <module>simviso_article</module>
+        <module>simviso_gathering</module>
+        <module>simviso_spit</module>
+        <module>simviso_search</module>
     </modules>
 
     <name>simviso_parent</name>

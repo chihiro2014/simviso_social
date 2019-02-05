@@ -1,4 +1,4 @@
-package com.simviso.qa;
+package com.simviso.article;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,13 +8,13 @@ import util.IdWorker;
 /**
  * @description: simviso_parent
  * @author: AAR
- * @date: 1/31/2019
+ * @date: 2/2/2019
  * @Email: liujch1996@gmail.com
  */
 @SpringBootApplication
-public class QaApplication {
+public class ArticleApplication {
     public static void main(String[] args) {
-        SpringApplication.run(QaApplication.class,args);
+        SpringApplication.run(ArticleApplication.class,args);
     }
 
     @Bean

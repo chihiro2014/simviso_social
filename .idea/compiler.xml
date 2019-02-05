@@ -6,23 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="simviso_article" />
         <module name="simviso_base" />
         <module name="simviso_common" />
+        <module name="simviso_gathering" />
         <module name="simviso_qa" />
         <module name="simviso_recruit01" />
+        <module name="simviso_search" />
+        <module name="simviso_spit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="simviso_recruit" target="11" />
+      <module name="simviso_test" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="simviso_article" options="-parameters" />
       <module name="simviso_base" options="-parameters" />
       <module name="simviso_common" options="-parameters" />
+      <module name="simviso_gathering" options="-parameters" />
       <module name="simviso_qa" options="-parameters" />
       <module name="simviso_recruit" options="-parameters" />
       <module name="simviso_recruit01" options="-parameters" />
+      <module name="simviso_search" options="-parameters" />
+      <module name="simviso_spit" options="-parameters" />
+      <module name="simviso_test" options="-parameters" />
     </option>
   </component>
 </project>
